@@ -1,6 +1,6 @@
 {
-  "name": "react-arborist",
-  "version": "3.0.2",
+  "name": "teora-react-arborist",
+  "version": "3.0.3",
   "license": "MIT",
   "source": "src/index.ts",
   "main": "dist/index.js",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/brimdata/react-arborist.git"
+    "url": "https://github.com/victorvianaom/teora-react-arborist.git"
   },
   "homepage": "https://react-arborist.netlify.app",
   "bugs": "https://github.com/brimdata/react-arborist/issues",
