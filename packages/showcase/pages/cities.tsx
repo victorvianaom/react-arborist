@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import { useEffect, useRef, useState } from "react";
-import { NodeApi, NodeRendererProps, Tree, TreeApi } from "react-arborist";
+import { NodeApi, NodeRendererProps, Tree, TreeApi } from "teora-react-arborist";
 import styles from "styles/cities.module.css";
 import { cities } from "../data/cities";
 import { BsMapFill, BsMap, BsGeo, BsGeoFill } from "react-icons/bs";
@@ -152,7 +152,7 @@ export default function Cities() {
             <Link href="/">Back To Demos</Link>
           </p>
           <p>
-            <Link href="https://github.com/brimdata/react-arborist">
+            <Link href="https://github.com/brimdata/teora-react-arborist">
               Go to Docs
             </Link>
           </p>

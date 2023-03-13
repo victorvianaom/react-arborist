@@ -22,7 +22,7 @@ const Home: NextPage = () => {
           If you are using it in your project, send me a screenshot on{" "}
           <a href="https://twitter.com/specialcasedev">Twitter</a>! Also leave a
           star on{" "}
-          <a href="https://github.com/brimdata/react-arborist">GitHub</a>.
+          <a href="https://github.com/brimdata/teora-react-arborist">GitHub</a>.
         </p>
 
         <div className={styles.demos}>

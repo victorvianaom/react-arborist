@@ -1,17 +1,17 @@
 {
-  "name": "react-arborist-monorepo",
+  "name": "teora-react-arborist-monorepo",
   "workspaces": [
     "./packages/*"
   ],
   "scripts": {
     "start": "run-p 'start:**'",
     "start:showcase": "yarn workspace showcase start",
-    "start:library": "yarn workspace react-arborist start",
-    "build": "run-s build:react-arborist build:showcase",
-    "build:react-arborist": "yarn workspace react-arborist build",
+    "start:library": "yarn workspace teora-react-arborist start",
+    "build": "run-s build:teora-react-arborist build:showcase",
+    "build:teora-react-arborist": "yarn workspace teora-react-arborist build",
     "build:showcase": "yarn workspace showcase build",
-    "test": "run-p test:react-arborist test:e2e",
-    "test:react-arborist": "yarn workspace react-arborist test",
+    "test": "run-p test:teora-react-arborist test:e2e",
+    "test:teora-react-arborist": "yarn workspace teora-react-arborist test",
     "test:e2e": "yarn workspace e2e test"
   },
   "private": true,

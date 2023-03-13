@@ -23,11 +23,11 @@
     "url": "https://github.com/victorvianaom/teora-react-arborist.git"
   },
   "homepage": "https://react-arborist.netlify.app",
-  "bugs": "https://github.com/brimdata/react-arborist/issues",
+  "bugs": "https://github.com/brimdata/teora-react-arborist/issues",
   "keywords": [
     "react",
     "arborist",
-    "react-arborist",
+    "teora-react-arborist",
     "treeview",
     "tree",
     "vitualized",

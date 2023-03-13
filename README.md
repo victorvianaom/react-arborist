@@ -2,13 +2,13 @@
 
 <h1>React Arborist</h1>
 
-[See the Demos](https://react-arborist.netlify.app/)
+[See the Demos](https://teora-react-arborist.netlify.app/)
 
 The tree view is ubiquitous in software applications. This library provides the React ecosystem with a complete solution to build the equivalent of a VSCode sidebar, Mac Finder, Windows Explorer, or Sketch/Figma layers panel.
 
-Here is a Gmail sidebar clone built with react-arborist.
+Here is a Gmail sidebar clone built with teora-react-arborist.
 
-<img src="https://user-images.githubusercontent.com/3460638/197306119-59fe59e6-50ae-4bc2-8cb9-3faa2bc52cd2.gif" width="270px" alt="Gmail sidebar clone built with react-arborist" />
+<img src="https://user-images.githubusercontent.com/3460638/197306119-59fe59e6-50ae-4bc2-8cb9-3faa2bc52cd2.gif" width="270px" alt="Gmail sidebar clone built with teora-react-arborist" />
 
 ## Features
 
@@ -27,11 +27,11 @@ Here is a Gmail sidebar clone built with react-arborist.
 ## Installation
 
 ```
-yarn add react-arborist
+yarn add teora-react-arborist
 ```
 
 ```
-npm install react-arborist
+npm install teora-react-arborist
 ```
 
 ## Examples
@@ -393,7 +393,7 @@ All these properties on the node instance return booleans related to the state o
 
 _node_.**isRoot**
 
-Returns true if this is the root node. The root node is added internally by react-arborist and not shown in the UI.
+Returns true if this is the root node. The root node is added internally by teora-react-arborist and not shown in the UI.
 
 _node_.**isLeaf**
 

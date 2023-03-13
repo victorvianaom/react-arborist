@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import { CursorProps, NodeApi, NodeRendererProps, Tree } from "react-arborist";
+import { CursorProps, NodeApi, NodeRendererProps, Tree } from "teora-react-arborist";
 import { gmailData, GmailItem } from "../data/gmail";
 import * as icons from "react-icons/md";
 import styles from "../styles/Gmail.module.css";
@@ -87,7 +87,7 @@ export default function GmailSidebar() {
           </ul>
           <p>
             Star it on{" "}
-            <a href="https://github.com/brimdata/react-arborist">Github</a> (The
+            <a href="https://github.com/brimdata/teora-react-arborist">Github</a> (The
             docs are there too).
           </p>
           <p>

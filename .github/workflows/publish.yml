@@ -11,9 +11,9 @@ jobs:
         with:
           node-version: "16.x"
           registry-url: "https://registry.npmjs.org"
-      - run: cp README.md packages/react-arborist/README.md
+      - run: cp README.md packages/teora-react-arborist/README.md
       - run: yarn
-      - run: yarn workspace react-arborist build
-      - run: yarn workspace react-arborist npm publish
+      - run: yarn workspace teora-react-arborist build
+      - run: yarn workspace teora-react-arborist npm publish
         env:
           YARN_NPM_AUTH_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}

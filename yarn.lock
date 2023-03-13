@@ -7584,18 +7584,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-arborist-monorepo@workspace:.":
+"teora-react-arborist-monorepo@workspace:.":
   version: 0.0.0-use.local
-  resolution: "react-arborist-monorepo@workspace:."
+  resolution: "teora-react-arborist-monorepo@workspace:."
   dependencies:
     npm-run-all: ^4.1.5
     typescript: ">=3.0.0"
   languageName: unknown
   linkType: soft
 
-"react-arborist@workspace:^, react-arborist@workspace:packages/react-arborist":
+"teora-react-arborist@workspace:^, teora-react-arborist@workspace:packages/teora-react-arborist":
   version: 0.0.0-use.local
-  resolution: "react-arborist@workspace:packages/react-arborist"
+  resolution: "teora-react-arborist@workspace:packages/teora-react-arborist"
   dependencies:
     "@parcel/core": ^2.3.2
     "@types/jest": ^27.4.1
@@ -8147,7 +8147,7 @@ __metadata:
     next: ^12.3.1
     npm-run-all: ^4.1.5
     react: ^18.2.0
-    react-arborist: "workspace:^"
+    teora-react-arborist: "workspace:^"
     react-dom: ^18.2.0
     react-icons: ^4.6.0
     rimraf: ^4.1.2
