@@ -351,7 +351,7 @@ export class TreeApi<T> {
     this.dispatch(selection.add(id));
     this.dispatch(selection.anchor(id));
     this.dispatch(selection.mostRecent(id));
-    this.scrollTo(identity);
+    // this.scrollTo(node);
     if (this.focusedNode) safeRun(this.props.onFocus, this.focusedNode);
     safeRun(this.props.onSelect, this.selectedNodes);
   }
